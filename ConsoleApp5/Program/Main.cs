@@ -32,8 +32,8 @@ namespace PRAC1.Program
             lower.DrawLower();
 
             //возвращаю основной цвет
-            Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Black;
 
             Console.SetCursorPosition(0, 25); //чтобы сообщение о завершении писалось снизу
         }
